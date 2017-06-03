@@ -1,0 +1,134 @@
+*{margin: 0px;
+  padding: 0px;}
+#logo{width: 100%;
+      height: 150px;
+      background-color: rgb(235,235,235);
+      }
+#xiehui{float: left;
+	    margin-left: 40px;}
+#logo .text1{white-space:nowrap; 
+             width:12em;
+             font-size: 50px;
+             font-family: "华文行楷";
+             text-overflow: hidden;
+             margin: 0 auto;
+             padding-left: 200px;
+             padding-top: 10px;}
+#logo .text2{white-space:nowrap; 
+             width:12em;
+             font-size: 50px;
+             font-family: "华文行楷";
+             text-overflow: hidden;
+             margin: 0 auto;
+             padding-left: 800px;
+             padding-top: 10px;}
+.hang{clear: both;
+    width: 100%;
+	  height: 10px;
+	  background-color: white;
+      }
+
+#header,#header1{width: 100%;height: 50px;
+   background-color: rgb(235,235,235);
+     }
+#head{height: 50px;
+     width: 743px;
+     margin: 0px auto;
+     } 
+#nav1,#nav2,#nav3,#nav4,#nav5,#nav6,#nav7{
+     float: left;
+     width: 100px;
+     height: 50px;
+     margin-left: 5px;
+     }
+ #head ul li{display: none;
+      height: 50px;
+      width: 100px;
+      color: black;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 50px;
+      text-align: center; 
+      border: 1px solid red;
+      border-radius: 5px;
+      background-color: rgb(235,235,235);
+      }
+  #head li a:hover{display: block;
+	          background-color: #4d94ec;
+	          height: 50px;
+	          width: 100px;
+            color: black;
+            border-radius: 5px;
+            }
+ #head ul li a{text-decoration: none;}
+#head ul .clear{display: block;}
+#nav1:hover #list1 li{display: block;}
+#nav2:hover #list2 li{display: block;}
+#nav3:hover #list3 li{display: block;}
+#nav4:hover #list4 li{display: block;}
+#nav5:hover #list5 li{display: block;}
+#nav6:hover #list6 li{display: block;}
+#nav7:hover #list7 li{display: block;}
+
+
+#run{height: 70px;
+     width: 100%;
+     text-align: center;
+     line-height: 70px;
+     font-size: 50px;
+     font-family: "华文行楷";
+     position: relative;
+     z-index: -1;
+     background-color: rgb(50,151,239);}
+.content{width: 1200px;
+         margin: 0px auto;
+         position: relative;
+         z-index: -1;
+         text-align: center;}
+.content1{float: left;
+         width: 700px;
+          margin-top: 20px;}
+.content2{float: left;
+          font-size: 23px;
+          font-family: "黑体"；
+          color:black;
+          text-align: left;
+          width: 480px;
+          padding: 10px 0px 0px 20px;
+          }
+.content2 h3{text-align: center;}
+
+.box{text-align: center;
+     width: 1050px;
+     height: 180px;
+     text-align: center;
+     border: 1px solid rgb(235,235,235);
+     margin: 0 auto;}
+.box1{text-align: center;
+      font-weight: bold;
+      color: red;
+      line-height:180px;
+     }
+.box2{margin-top: 15px;}
+.box1,.box2,.box3{float: left;}
+#foot{clear: both;
+      width: 100%;
+      height:100px; 
+      background-color: rgb(235,235,235);
+      text-align: center;
+      line-height: 50px;
+      }
+
+ .box2 img{transition:1s;/*变化持续时间*/} 
+.box2 img:hover{
+           transform:scale(1.5);/*放大1.5倍*/
+           -webkit-transform:scale(1.5);
+           -moz-transform:scale(1.5);
+           box-shadow: 10px 15px 15px #ccc;/*阴影右和上要用-；以上设置了左和下的阴影以及距离和颜色*/
+          } 
+#header,#logo{position: relative;
+              z-index: 2;}
+#header1{position: fixed;
+         z-index: 1;
+         top: 0px;
+         left: 0px;}

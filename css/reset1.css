@@ -1,0 +1,44 @@
+@charset "utf-8";
+body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,
+big,button,cite,code,del,dfn,em,img,ins,input,kbd,q,s,samp,select,small,strike,strong,
+sub,sup,tt,var,b,u,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,textarea,
+caption,tbody,tfoot,thead,tr,th,td{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline;
+}
+
+:focus{
+	outline:0;
+}
+
+ol,ul,li{
+	list-style:none;
+}
+b,strong{
+	font-weight:bold;
+}
+img{
+	border:none;
+	display:block;
+}
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	font-size:0;
+}
+.clearfix{position: absolute;
+	zoom:1;
+}
+/*==================================css reset==================================*/
